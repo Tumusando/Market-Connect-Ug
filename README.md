@@ -21,43 +21,7 @@ A simple full-stack web application that helps small-scale farmers in Uganda con
 - Axios for API requests
 - React Router for navigation
 
-## Project Structure
 
-```
-MarketConnectUganda/
-├── backend/
-│   ├── server.js           # Main server entry point
-│   ├── db.js               # Database configuration and setup
-│   ├── package.json        # Backend dependencies
-│   ├── routes/
-│   │   ├── produceRoutes.js    # Produce API routes
-│   │   └── priceRoutes.js      # Price API routes
-│   ├── controllers/
-│   │   ├── produceController.js    # Produce request handlers
-│   │   └── priceController.js      # Price request handlers
-│   └── models/
-│       └── produceModel.js     # Database operations
-│
-└── frontend/
-    ├── index.html          # HTML entry point
-    ├── package.json        # Frontend dependencies
-    ├── vite.config.js      # Vite configuration
-    └── src/
-        ├── main.jsx        # React entry point
-        ├── App.jsx         # Root component with routing
-        ├── App.css         # Main styles
-        ├── index.css       # Global styles
-        ├── components/
-        │   ├── Navbar.jsx          # Navigation bar
-        │   ├── ProduceCard.jsx     # Produce listing card
-        │   └── AddProduceForm.jsx  # Form to add produce
-        ├── pages/
-        │   ├── Home.jsx        # Home page - lists all produce
-        │   ├── AddProduce.jsx  # Page to add new produce
-        │   └── Prices.jsx      # Market prices page
-        └── services/
-            └── api.js          # API service functions
-```
 
 ## API Endpoints
 
